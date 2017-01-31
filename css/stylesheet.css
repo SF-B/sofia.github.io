@@ -1,0 +1,46 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  color: white;
+  background:images/1520_001_4.jpg;
+}
+
+.container {
+float: none;
+position: relative;
+text-align: center;
+background-color: blue;
+width: 1400px;
+font-size: 20pt;
+}
+
+.footer {
+  position: absolute;
+  background-color: pink;
+  float: right;
+  margin-left: 400px;
+  margin-top: 600px;
+  width: 500px;
+  height: 100px;
+}
+
+.backfoto {
+width: 300px;
+height: 200px;
+}
+
+.menupunkte{
+
+}
+
+.unten {
+  text-align: left;
+  font-size: 40pt;
+  background-color: pink;
+  position: absolute;
+  background-color: pink;
+  float: right;
+  margin-left: 50px;
+  margin-top: 250px;
+  width: 500px;
+  height: 100px;
+}
