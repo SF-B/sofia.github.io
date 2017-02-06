@@ -1,46 +1,181 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-family: "Franklin Gothic Heavy", Helvetica Neue, Helvetica, Arial;
   color: white;
-  background:images/1520_001_4.jpg;
+  margin: auto;
+  display: inline-block;
+  background-color: rgba(18,141,146,0.2);
 }
 
-.container {
-float: none;
-position: relative;
-text-align: center;
-background-color: blue;
-width: 1400px;
-font-size: 20pt;
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
-.footer {
-  position: absolute;
-  background-color: pink;
-  float: right;
-  margin-left: 400px;
-  margin-top: 600px;
-  width: 500px;
-  height: 100px;
+a {
+  font-family: "Franklin Gothic Heavy", Hevetica Neue, Helvetica, Arial;
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+  text-shadow: 0px 2px 10px rgb(18,141,146);
 }
 
-.backfoto {
-width: 300px;
-height: 200px;
+a:hover {
+-moz-transition: all 2s ease-in 2s;
+text-shadow: rgb(18,141,146);
+border-style: dotted;
+background-color: rgba(18,141,146,0.3)
 }
 
-.menupunkte{
+header {
+ width: 90%;
+ height: auto;
+ margin-top: 90;
+ margin-right: 60;
+ float: center;
+ position: fixed;
+ background: rgba (42,165,173,1);
+ text-align: right;
+ font-size: 30pt;
+ font-weight: bold;
+ z-index:3;
+}
 
+header:hover {
 }
 
 .unten {
+  position: fixed;
   text-align: left;
   font-size: 40pt;
-  background-color: pink;
-  position: absolute;
-  background-color: pink;
+  background-color: none;
   float: right;
   margin-left: 50px;
-  margin-top: 250px;
+  margin-top: 290px;
   width: 500px;
   height: 100px;
+  z-index: 3;
 }
+
+.starter {
+  position: fixed;
+  float: center;
+  margin-left: 70px;
+  margin-top: 70px;
+  width: 1200px;
+  height: 490px;
+  background-color: rgba(42,165,173,1);
+}
+
+.backfoto {
+  margin: 0;
+  width: 1500px;
+  height: auto;
+  opacity: 0.9;
+  z-index: 0;
+}
+
+.contacts {
+  position: fixed;
+  float: right;
+  text-align: right;
+  width: 100%;
+  height: auto;
+  margin-top: 500;
+  margin-left: -100;
+  font-size: 15pt;
+  padding: 20pt;
+  font-weight: bold;
+  z-index: 2;
+  background-color: none;
+}
+
+* {
+  box-sizing: border-box;
+  }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.illus {
+  width: 70%;
+  margin-top: 150;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+
+}
+.works {
+  width:50%;
+  float: left;
+  padding: 30px;
+  z-index: 1;
+}
+
+
+.arbeiten {
+  width: 70%;
+  margin-top: 150;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+
+}
+.pictures {
+  width: 50%;
+  float: left;
+  padding: 30px;
+  background-color: inherit;
+  z-index: 1;
+}
+
+.pictureswide {
+  width: 100%;
+  float: left;
+  padding: 30px;
+  background-color: inherit;
+  z-index: 2;
+}
+
+.picturesthree {
+  width: 33.3%;
+  float: left;
+  padding: 10px;
+  background-color: inherit;
+  z-index: 3;
+}
+
+section {
+  position: absolute;
+  display: block;
+  float: center;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.cv {
+  position: absolute;
+  display: scroll;
+  width: 70%;
+  margin-left: 100;
+  margin-right: auto;
+  margin-top: 150;
+  float: left;
+  background-color: none;
+  z-index: 1;
+}
+
+li {
+  font: "Corbel", Helvetica, Arial;
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  font-size: 20pt;
+  font-weight: lighter;
+  line-height: 1;
+  background-color: none;
