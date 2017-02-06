@@ -3,7 +3,7 @@ body {
   color: white;
   margin: auto;
   display: inline-block;
-  background-color: rgba(18,141,146,0.2);
+  background-color: #bfbfbf;
 }
 
 * {
@@ -32,6 +32,8 @@ header {
  height: auto;
  margin-top: 90;
  margin-right: 60;
+ margin-left: auto;
+ margin-right: auto;
  float: center;
  position: fixed;
  background: rgba (42,165,173,1);
@@ -61,6 +63,7 @@ header:hover {
   position: fixed;
   float: center;
   margin-left: 70px;
+  margin-right: auto;
   margin-top: 70px;
   width: 1200px;
   height: 490px;
@@ -107,15 +110,14 @@ img {
   margin-left: auto;
   margin-right: auto;
   z-index: 0;
-
 }
+
 .works {
   width:50%;
   float: left;
   padding: 30px;
   z-index: 1;
 }
-
 
 .arbeiten {
   width: 70%;
@@ -129,7 +131,6 @@ img {
   width: 50%;
   float: left;
   padding: 30px;
-  background-color: inherit;
   z-index: 1;
 }
 
