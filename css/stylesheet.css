@@ -3,7 +3,7 @@ body {
   color: white;
   margin: auto;
   display: inline-block;
-  background-color: #bfbfbf;
+  background-color: rgba(18,141,146,0.2);
 }
 
 * {
@@ -32,8 +32,6 @@ header {
  height: auto;
  margin-top: 90;
  margin-right: 60;
- margin-left: auto;
- margin-right: auto;
  float: center;
  position: fixed;
  background: rgba (42,165,173,1);
@@ -63,7 +61,6 @@ header:hover {
   position: fixed;
   float: center;
   margin-left: 70px;
-  margin-right: auto;
   margin-top: 70px;
   width: 1200px;
   height: 490px;
@@ -109,9 +106,10 @@ img {
   margin-top: 150;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgba(18,141,146,0.2);
   z-index: 0;
-}
 
+}
 .works {
   width:50%;
   float: left;
@@ -119,36 +117,32 @@ img {
   z-index: 1;
 }
 
+
 .arbeiten {
   width: 70%;
   margin-top: 150;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgba(18,141,146,0.2);
   z-index: 0;
 
 }
 .pictures {
   width: 50%;
   float: left;
-  padding: 30px;
+  padding: 20px;
+  background-color: none;
   z-index: 1;
 }
 
 .pictureswide {
   width: 100%;
   float: left;
-  padding: 30px;
-  background-color: inherit;
+  padding: 20px;
+  background-color: none;
   z-index: 2;
 }
 
-.picturesthree {
-  width: 33.3%;
-  float: left;
-  padding: 10px;
-  background-color: inherit;
-  z-index: 3;
-}
 
 section {
   position: absolute;
